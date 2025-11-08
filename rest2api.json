@@ -9,7 +9,6 @@
     }
   ],
   "blacklistedIps": [
-    "24.21.100.243"
   ],
   "blacklistedRanges": []
 }
