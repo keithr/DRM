@@ -1,8 +1,15 @@
 {
   "version": "1.0",
-  "updated": "2025-11-08",
-  "ranges": [
-    "0.0.0.0/0"
+  "updated": "2025-01-08",
+  "comment": "Test license file - allows most IPs but blocks 24.21.100.243 for testing",
+  "allowedRanges": [
+    {
+      "cidr": "0.0.0.0/0",
+      "name": "Allow All IPs (for testing)"
+    }
   ],
-  "comment": "Start with all IPs allowed, then narrow down"
+  "blacklistedIps": [
+    "24.21.100.243"
+  ],
+  "blacklistedRanges": []
 }
