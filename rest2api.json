@@ -10,10 +10,5 @@
   ],
   "blacklistedIps": [
   ],
-  "blacklistedRanges": [
-    {
-      "cidr": "73.25.0.0/16",
-      "name": "Block 73.25.* range"
-    }
-  ]
+  "blacklistedRanges": []
 }
